@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	}
+@media (min-width: 500px){
+	.container-1, .container-2 {
+		display: flex;
+		align-items: stretch;
+		flex-direction: row; /*позиціонування обєктів*/
+		/* align-items: flex-start; *//*вирівнювання місця по тексту*/ 
+	}
+
+	.container-2 {
+		justify-content: space-around;
+	}
+	}
+	.container-1 div, .container-2 div{
+	padding: 20px;
+	border: 3px solid silver;
+	}
+	
+	.box-1 {
+	flex: 1;
+	order: 2;
+	}
+	.box-2 {
+	flex: 1;
+	order: 1;
+
+	}		
+	.box-3{
+	flex: 1;
+	order:3;
+    }
+
+</style>
+<head>
+	<meta charset="UTF-8">
+	<title>Anime</title>
+</head>
+<body bgcolor="black">
+	<body text="blue">
+ <head>0</head>
+  <nav></nav>	
+
+	<div class="container-1">
+		<div class="box-1">
+			<h3>новини гі</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi alias error, reiciendis, eius cumque dolore unde tenetur culpa rem consequuntur ducimus voluptatem, aliquid sequi sed velit, distinctio beatae vel.</p>
+		</div>
+		<div class="box-2">
+			<h3>box 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi alias error, reiciendis, eius cumque dolore unde tenetur culpa rem consequuntur ducimus voluptatem, aliquid sequi sed velit, distinctio beatae vel.</p>
+		</div>
+		<div class="box-3">
+			<h3>box 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi alias error, reiciendis, eius cumque dolore unde tenetur culpa rem consequuntur ducimus voluptatem, aliquid sequi sed velit, distinctio beatae vel.</p>
+		</div>
+	</div>
+	<div class="container-2">
+	
+		<div class="box4">
+			<h3>box 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi alias error, reiciendis, eius cumque dolore unde tenetur culpa rem consequuntur ducimus voluptatem, aliquid sequi sed velit, distinctio beatae vel.</p>
+		</div>
+		<div class="box5">
+			<h3>box 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi alias error, reiciendis, eius cumque dolore unde tenetur culpa rem consequuntur ducimus voluptatem, aliquid sequi sed velit, distinctio beatae vel.</p>
+		</div>
+		<div class="box6">
+			<h3>box 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic modi alias error, reiciendis, eius cumque dolore unde tenetur culpa rem consequuntur ducimus voluptatem, aliquid sequi sed velit, distinctio beatae vel.</p>
+	</div>
+</body>
+<footer>
+	
+</footer>
+</html>
